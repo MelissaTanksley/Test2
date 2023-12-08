@@ -1,5 +1,5 @@
 {
-  "name": "Vyberfolio-2023",
+  "name": "Cyberfolio-2023",
   "version": "0.1.1",
   "private": false,
   "dependencies": {
@@ -12,7 +12,8 @@
     "react-particles-js": "^3.4.1",
     "react-scripts": "4.0.1",
     "tsparticles": "1.33.2",
-    "web-vitals": "^3.1.0"
+    "web-vitals": "^3.1.0",
+    
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,23 +37,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  }
-}
-
-
-
-{
-  "name": "cyberfolio-2023",
-  "version": "1.0.0",
-  "description": "My portfolio",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
-    "test": "false"
-  },
-  
+    ],
   "keywords": [
     "cyber",
     "security",
@@ -62,14 +47,7 @@
     "problem-solver",
     "critical-thinker", 
     "ghidra"
-  ],
-  "author": "Melissa Tanksley",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.3",
-  },
+
   "bugs": {
     "url": "https://github.com/MelissaTanksley/Cyberfolio-2023/issues"
   },
@@ -77,6 +55,13 @@
   "nodemonConfig": {
     "ignore": ["**/test/**", "**/docs/**"],
     "delay": 2500
-  }
   
+  ]
+  
+  }
 }
+
+
+
+
+
