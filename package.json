@@ -1,67 +1,41 @@
 {
-  "name": "Cyberfolio-2023",
-  "version": "0.1.1",
-  "private": false,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.2.2",
-    "aos": "^2.3.4",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-particles-js": "^3.4.1",
-    "react-scripts": "4.0.1",
-    "tsparticles": "1.33.2",
-    "web-vitals": "^3.1.0",
-    
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "cyberfolio-2023",
+    "version": "1.0.0",
+    "description": "My portfolio",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index",
+      "dev": "nodemon index",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MelissaTanksley/Cyberfolio-2023.git"
+    },
+    "keywords": [
+      "cyber",
+      "security",
+      "malware",
+      "analyst",
+      "CIA",
+      "problem-solver",
+      "critical-thinker"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ],
-  "keywords": [
-    "cyber",
-    "security",
-    "malware",
-    "analyst",
-    "CIA",
-    "problem-solver",
-    "critical-thinker", 
-    "ghidra"
-
-  "bugs": {
-    "url": "https://github.com/MelissaTanksley/Cyberfolio-2023/issues"
-  },
-  "homepage": "https://github.com/MelissaTanksley/Cyberfolio-2023#readme",
-  "nodemonConfig": {
-    "ignore": ["**/test/**", "**/docs/**"],
-    "delay": 2500
-  
-  ]
-  
+    "author": "Melissa Tanksley",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.20.0",
+      "cors": "^2.8.5",
+      "express": "^4.17.3",
+      "web-vitals": "^3.1.0"
+    },
+    "bugs": {
+      "url": "https://github.com/MelissaTanksley/Cyberfolio-2023/issues"
+    },
+    "homepage": "https://github.com/MelissaTanksley/Cyberfolio-2023#readme",
+    "nodemonConfig": {
+      "ignore": ["**/test/**", "**/docs/**"],
+      "delay": 2500
+    }
   }
-}
-
-
-
-
-
+  
